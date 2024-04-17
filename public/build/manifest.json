@@ -1,0 +1,41 @@
+{
+  "resources/fonts/dashboard/Yekan.ttf": {
+    "file": "assets/Yekan-DOZv2N79.ttf",
+    "src": "resources/fonts/dashboard/Yekan.ttf"
+  },
+  "resources/fonts/dashboard/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont-5a1dlndG.eot",
+    "src": "resources/fonts/dashboard/materialdesignicons-webfont.eot"
+  },
+  "resources/fonts/dashboard/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont-CCj2fJ0-.ttf",
+    "src": "resources/fonts/dashboard/materialdesignicons-webfont.ttf"
+  },
+  "resources/fonts/dashboard/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-8bl4yDSL.woff2",
+    "src": "resources/fonts/dashboard/materialdesignicons-webfont.woff2"
+  },
+  "resources/fonts/dashboard/yekan_bold.ttf": {
+    "file": "assets/yekan_bold-DQMdBQos.ttf",
+    "src": "resources/fonts/dashboard/yekan_bold.ttf"
+  },
+  "resources/fonts/dashboard/yekan_light.ttf": {
+    "file": "assets/yekan_light-CsvYtuaH.ttf",
+    "src": "resources/fonts/dashboard/yekan_light.ttf"
+  },
+  "resources/fonts/dashboard/yekan_medium.ttf": {
+    "file": "assets/yekan_medium-D0Z7Q4he.ttf",
+    "src": "resources/fonts/dashboard/yekan_medium.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DeOKOBbY.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-CWTUZYEw.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  }
+}
