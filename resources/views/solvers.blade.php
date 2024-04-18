@@ -28,7 +28,7 @@
                                 <tr>
                                     <th class="text-white"> # </th>
                                     <th class="text-white"> حل کننده </th>
-{{--                                    <th class="text-white"> شماره همراه </th>--}}
+                                    <th class="text-white"> شماره همراه </th>
                                     <th class="text-white"> نام جدول </th>
                                 </tr>
                                 </thead>
@@ -37,7 +37,7 @@
                                     <tr>
                                         <td class="text-white">{{$solvers->firstItem() + $key}}</td>
                                         <td class="text-white">{{$solver->name}}</td>
-{{--                                        <td class="text-white">{{$solver->number}}</td>--}}
+                                        <td class="text-white">{{$solver->number}}</td>
                                         <td class="text-white"><a href="{{route('solve_table' , ['table'=>$solver->table->id])}}" class="text-decoration-none">{{$solver->table->name}}</a></td>
                                     </tr>
                                 @endforeach

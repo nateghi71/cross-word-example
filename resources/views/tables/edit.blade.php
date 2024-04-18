@@ -71,7 +71,7 @@
                 @method('PUT')
                 <div class="row">
                     <div class="form-group">
-                        <label for="name"> نام:</label>
+                        <label for="name"> نام جدول:</label>
                         <input type="text" name="name" class="form-control" id="name" value="{{$table->name}}" placeholder="نام">
                     </div>
                 </div>

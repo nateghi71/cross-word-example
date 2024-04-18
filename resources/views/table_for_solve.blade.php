@@ -87,8 +87,11 @@
 
             if(puzzle_answered.length === puzzles.length)
             {
-                $('#backModal').css('display', 'block')
-                $('#winModel').css('display', 'block')
+                setTimeout(function (){
+                    $('#backModal').css('display', 'block')
+                    $('#winModel').css('display', 'block')
+                } , 1200)
+
                 let counter2 = 0;
                 let keyword_res = '';
 
@@ -134,7 +137,9 @@
         <div class="col-12 grid-margin">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">حل جدول</h3>
+                    <h3 class="card-title">
+                        حل جدول
+                    </h3>
                     <div class="table-responsive">
                         <table class="puzzle" id="table-word">
                             @foreach($table->rows as $row)
@@ -158,7 +163,14 @@
         <div class="col-12 grid-margin">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">سوالات</h3>
+                    <div class="d-flex justify-content-start">
+                        <h3 class="card-title">
+                            سوالات
+                        </h3>
+                        <small class="ms-2">
+                            (برای حل جدول روی سوالات کلیک کنید.)
+                        </small>
+                    </div>
                     <ul>
                         @foreach($table->rows as $row)
                             <li class="pb-4"  id="question_{{$row->id}}">
